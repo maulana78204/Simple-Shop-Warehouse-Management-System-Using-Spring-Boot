@@ -1,0 +1,57 @@
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Dependencies
+node_modules/
+.m2/
+.gradle/
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.properties
+!application.properties
+!application-dev.properties
+!application-test.properties
+!application-prod.properties
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test Coverage
+coverage/
+jacoco.exec
+*.lcov
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+
+# Temp
+tmp/
+temp/
+*.tmp
